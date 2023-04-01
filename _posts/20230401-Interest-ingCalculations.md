@@ -3,7 +3,9 @@ layout: post
 title: Interest-ing Calculations
 ---
 
-John C. Nash   2023-4-1
+# Interest-ing Calculations
+
+### John C. Nash   2023-4-1
 
 All of us are affected by the interest charged or earned on money, but
 few people pay much attention to how the calculations are performed.
