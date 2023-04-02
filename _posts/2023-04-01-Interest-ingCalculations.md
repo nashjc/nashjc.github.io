@@ -234,25 +234,31 @@ work out the per-period payment *z*.
 First, in each period,
 
 *P*<sub>*i* + 1</sub> = *P*<sub>*i*</sub> \* (1+*r*) − *z*
+
 or more strictly
 
 *P*<sub>*i* + 1</sub> = *r**o**u**n**d**e**d*(*P*<sub>*i*</sub>\*(1+*r*)−*z*)
+
 For now ignore the rounding. We want to find *z* so that *n* payments
 give *P*<sub>*n*</sub> = 0. But this is
 
 *P*<sub>*n*</sub> = 0 = *P*<sub>0</sub> \* (1+*r*)<sup>*n*</sup> − *z* \* ∑<sub>*i* = 1, *n*</sub>((1+*r*)<sup>(*i*−1)</sup>)
+
 The right hand summation is a geometric progression. Its sum has a known
 formula, which we can easily derive.
 
 *Q* = ∑<sub>*i* = 1, *n*</sub>((1+*r*)<sup>*i*</sup>
 *Q* \* ((1+*r*)−1) = *r* \* *Q* = (1+*r*)<sup>*n*</sup> − 1)
 *Q* = \[(1+*r*)<sup>*n*</sup>−1\]/*r*
+
 Giving
 
 *P*<sub>0</sub> \* (1+*r*)<sup>*n*</sup> \* *r*/\[(1+*r*)<sup>*n*</sup>−1\] = *z*
+
 or
 
 *z* = *P*<sub>0</sub> \* *r*/\[1−(1+*r*)<sup>−*n*</sup>\]
+
 Thus the per-period payment for a loan of $10000 for 20 periods at 2% is
 
     z <- 10000*0.02/(1 - 1.02^(-20))
@@ -282,6 +288,7 @@ is the fraction of a regular payment period since the last
 reconciliation, then we get a new balance of
 
 *P*<sub>*i* + 1</sub> = *r**o**u**n**d**e**d*(*f*<sub>*i*</sub>\**P*<sub>*i*</sub>\*(1+*r*)−*z*<sub>*i*</sub>)
+
 Note that *f*<sub>*i*</sub> is 1 for a regular payment interval, but
 could be larger or smaller depending on holidays, calendar effects, etc.
 Traditionally we did not see values for *f*<sub>*i*</sub> other than 1.
@@ -327,6 +334,7 @@ be equal to the semi-annual payment.
 Ignoring rounding, this is the same as using a monthly rate
 
 *r* = (1+*R*/200)<sup>1/6</sup> − 1
+
 We can check this with an example.
 
     # semi-annual payment at 4% for 20 years on $100,000
@@ -368,8 +376,7 @@ We can check this with an example.
 We will not get into rounded computations here, but they are important
 when real mortgages in Canada are contracted. Unless the lender provides
 the borrower with a schedule of payments, the “rules” fall back to
-semi-annual or annual payments with a maximum rate prescribed at 5%. ??
-check.
+semi-annual or annual payments with a maximum rate prescribed at 5%. 
 
 ## Weekly mortgages
 
