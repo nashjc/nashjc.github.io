@@ -3,7 +3,7 @@ layout: post
 title: Special Powers
 ---
 
-# Special Powers
+****** NOTE: The markdown rendering of this file is NOT correct. To be updated *****
 
 ### John C. Nash   2023-4-1
 
