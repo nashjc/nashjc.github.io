@@ -3,7 +3,9 @@ layout: post
 title: Special Powers
 ---
 
-****** NOTE: The markdown rendering of this file is NOT correct. To be updated *****
+****** NOTE: The markdown rendering of this file is NOT correct. *****
+See pdf version at https://web.ncf.ca/nashjc/BlogCopies/SpecialPowers.pdf
+
 
 ### John C. Nash   2023-4-1
 
