@@ -196,7 +196,7 @@ this.
     }
     plot(pcrv, balv)
 
-![](IC_files/figure-markdown_strict/minbalX-1.png)
+![](images/balvpcrv.png)
 
 It turns out that the smallest non-zero interest paid will be a penny a
 day, or 365 cents, and this will be paid on the minimum interest earning
