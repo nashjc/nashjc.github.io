@@ -7,8 +7,8 @@ title: Special Powers
 
 ### John C. Nash   2023-4-1
 
-In a recent blog post, (??not yet published “Interest-ing
-Calculations”), I mentioned that Canadian mortgages often need the
+In a recent blog post, ([“Interest-ing Calculations"](https://nashjc.github.io/Interest-ingCalculations/))
+, I mentioned that Canadian mortgages often need the
 calculation of an **effective interest rate** that is equivalent to an
 annual or semi-annual rate. For monthly payments of Canadian mortgages,
 for instance, the usual (fractional) rate *r*<sub>*e*</sub> used to
@@ -26,12 +26,13 @@ of period (month) *i* from the previous period balance
 *A*<sub>*i* − 1</sub> when a payment of *p*<sub>*i*</sub> is made. (We
 may have to specify when the payment is made as part of the contract.)
 
-*A*<sub>*i*</sub> = *r**o**u**n**d**e**d*(*A*<sub>*i* − 1</sub>\*(1+*r*<sub>*e*</sub>)−*p*<sub>*i*</sub>)
-where *r**o**u**n**d**e**d*() should be a function returning the balance
+*A*<sub>*i*</sub> = *rounded*(*A*<sub>*i* − 1</sub>\*(1+*r*<sub>*e*</sub>)−*p*<sub>*i*</sub>)
+
+where *rounded*() should be a function returning the balance
 to the nearest cent or other smallest unit of currency. We use
 **should** because some institutions may use different rounding rules.
-Usually we want the payment to be the same across periods, i.e., $ p\_i
-= p $, but by allowing it to be variable, we can include balloon
+Usually we want the payment to be the same across periods, 
+i.e., *p*<sub>*i*</sub> = *p*, but by allowing it to be variable, we can include balloon
 payments or other conditions. We could also consider variation in the
 effective rate, since the same formula applies to variable rate loans.
 
@@ -40,7 +41,7 @@ effective rate, since the same formula applies to variable rate loans.
 In most modern computing languages, we can find the effective rate by
 applying the formula for *r*<sub>*e*</sub> above. This relies on the
 computing environment having a good approximation for the power
-function. *x*<sup>*y*</sup> = *p**o**w*(*x*,*y*). Such approximations
+function. *x*<sup>*y*</sup> = *pow*(*x*,*y*). Such approximations
 are a difficult and detailed science. Some references are given at the
 end. (Muller (2006), William J. Cody, Jr. and William Waite (1980),
 Crenshaw (2000)). Fortunately, most modern computing systems, including
@@ -78,7 +79,8 @@ exponent *a* is non-integer, we have the Taylor-McLaurin expansion
 
 $$ (1 + x)^a = \sum\_{i=0}^\infty {F\_i} = 1 + x\*a + x^2\*a\*(a-1)/2 + ...   $$
 
-where $ F\_0 = 1$ and
+where *F*<sub>*0*</sub> = 1 and
+
 *F*<sub>*i* + 1</sub> = *x* \* *F*<sub>*i*</sub> \* (*a*−*i*)/*i* .
 
 This binomial expansion approach has the added nicety that we can drop
