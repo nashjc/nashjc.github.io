@@ -94,7 +94,7 @@ and must report the amount at each time point where interest is accrued.
 What actually gets recorded will be the result *A*<sub>*n*</sub> of a
 recursion
 
-*A*<sub>*i* + 1</sub> = *r**o**u**n**d**e**d*\[(1+*r*)\**A*<sub>*i*</sub>\]
+*A*<sub>*i* + 1</sub> = *rounded*\[(1+*r*)\**A*<sub>*i*</sub>\]
 
 where *A*<sub>0</sub> = *P*.
 
