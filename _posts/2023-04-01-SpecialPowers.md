@@ -78,7 +78,7 @@ particular form of a binomial. Writing *x* = *R*/200, and assuming the
 exponent *a* is non-integer, we have the Taylor-McLaurin expansion
 
  (1 + *x*)<sup>a</sup> 
-   = \sum\_{i=0}^\infty {F<sub>i</sub>} 
+   = sum<sub>{i=1}</sub><sup>infinity</sup> {F<sub>i</sub>} 
    = 1 + *x*\**a* + *x*<sup>2</sup>\* *a* \* (*a*-1)/2 + ...   
 
 where *F*<sub>*0*</sub> = 1 and
