@@ -7,7 +7,8 @@ title: Interest-ing Calculations
 
 ### John C. Nash   2023-4-1
 
-****** NOTE: The markdown rendering of this file is NOT correct. To be updated *****
+****** NOTE: The markdown rendering of this file is NOT correct. *****
+See pdf link at https://web.ncf.ca/nashjc/BlogCopies/Interest-ingCalculations.pdf
 
 All of us are affected by the interest charged or earned on money, but
 few people pay much attention to how the calculations are performed.
