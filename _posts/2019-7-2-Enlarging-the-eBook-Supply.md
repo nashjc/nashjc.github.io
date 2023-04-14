@@ -1,3 +1,9 @@
+---
+layout: post
+title: Enlarging the eBook supply
+tag: social commentary
+---
+
 # Enlarging the eBook supply
 
 J C Nash  2019-7-2
