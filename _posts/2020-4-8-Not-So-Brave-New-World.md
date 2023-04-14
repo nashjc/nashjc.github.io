@@ -1,4 +1,4 @@
- ---
+---
 layout: post
 title: Not-So-Brave New World
 date: 2020-4-8
