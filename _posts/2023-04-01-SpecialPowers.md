@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Special Powers
+tag: computation
 ---
 
 ****** NOTE: The markdown rendering of this file is NOT correct. *****
