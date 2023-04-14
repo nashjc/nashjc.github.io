@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Interest-ing Calculations
+tag: computation
 ---
 
 # Interest-ing Calculations
