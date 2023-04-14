@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Maintaining a record of personal contributions
+tag: information management
 ---
  
 ## Ways to keep a record of one's personal efforts and contributions. ##
