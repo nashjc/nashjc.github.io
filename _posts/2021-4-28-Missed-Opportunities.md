@@ -2,6 +2,7 @@
 layout: post
 title: Missed Opportunities for Beating Covid
 date: 2021-4-28
+tag: social commentary
 ---
 
 # Missed opportunities for beating Covid
