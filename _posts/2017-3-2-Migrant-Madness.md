@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Migrant Madness
+tag: social commentary
 ---
  
 ## Why we need pragmatic but humane responses to refugees and immigration. ##

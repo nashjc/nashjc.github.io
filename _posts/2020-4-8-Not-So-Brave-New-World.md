@@ -1,7 +1,8 @@
- ---
+---
 layout: post
 title: Not-So-Brave New World
 date: 2020-4-8
+tag: social commentary
 ---
 
 # The Not-so-brave New World of 2020
